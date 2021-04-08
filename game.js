@@ -127,7 +127,7 @@ function checkAnswer() {
   } else if (level != count && userClickedPattern[count - 1] == gamePattern[count - 1]) {
     count++;
   } else {
-    $("h1").text("Ti proebal");
+    $("h1").text("Ti proebal. Press A Key to Start");
     gameOver();
     var wrong = new Audio("sounds/wrong.mp3");
     wrong.play();
